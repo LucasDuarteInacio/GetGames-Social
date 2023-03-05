@@ -1,0 +1,29 @@
+{
+  "LOGIN": {
+    "BANNER": {
+      "PRE-TITLE": "Bem vindo ao",
+      "TITLE": "(BR)VIKINGER",
+      "DESCRIPTION": "(BR)The next generation WordPress+Buddypress social community! Connect with your friends with full profiles, reactions, groups, badges, quests, ranks, credits and"
+    },
+    "FORM": {
+      "TITLE": "Bem vindo!",
+      "INPUT": {
+        "LOGIN": {
+          "PLACEHOLDER": "Usuario ou email",
+          "ERRORS": {
+            "REQUIRED": "Email e necessario"
+          }
+        },
+        "PASSWORD": {
+          "PLACEHOLDER": "Senha",
+          "ERRORS": {
+            "REQUIRED": "Senha e necessario"
+          }
+        },
+        "BUTTON": "Entrar"
+      },
+      "RECOVERY-PASSWORD": "Perdeu sua senha?",
+      "BACK-TEXT": "Voltar ao Vikinger"
+    }
+  }
+}

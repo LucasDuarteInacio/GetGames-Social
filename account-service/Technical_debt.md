@@ -1,0 +1,6 @@
+- Criar testes
+- Criar logica de suspensao de contas
+- Criar Validacao para country e phoneNumber
+- Adicionar parametro image e criar endPoint para alterar imagem
+- rever mensagem validacao password
+- FeignClient Decoder

@@ -1,0 +1,48 @@
+<mat-grid-list cols="18" rowHeight="100%">
+    <mat-grid-tile [colspan]="colsSessionTitle" (window:resize)="onResize($event)"
+        [style.background]="'url(assets/imgs/background.jpg) center center / cover no-repeat'"
+        style="background-color: #5a56c6">
+        <div>
+            <p class="header header-pretitle">{{'LOGIN.BANNER.PRE-TITLE' | translate}}</p>
+            <p class="header header-title">{{'LOGIN.BANNER.TITLE' | translate}}</p>
+            <p class="header header-text">
+                <span>{{'LOGIN.BANNER.DESCRIPTION' | translate}}</span>
+            </p>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="colsSessionLogin" (window:resize)="onResize($event)">
+        <div class="session-form">
+            <img class="session-form-img" src="../../../assets/imgs/logo.png" alt="Logo">
+            <h1>
+                <a class="session-form-title">{{'LOGIN.FORM.TITLE' | translate}}</a>
+            </h1>
+            <form class="example-form" class="form">
+                <mat-form-field class="form-input" appearance="outline">
+                    <mat-label>{{'LOGIN.FORM.INPUT.LOGIN.PLACEHOLDER' | translate}}</mat-label>
+                    <input matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher">
+                    <mat-error>
+                        {{'LOGIN.FORM.INPUT.LOGIN.ERRORS.REQUIRED' | translate}}
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field class="form-input" appearance="outline">
+                    <mat-label>{{'LOGIN.FORM.INPUT.PASSWORD.PLACEHOLDER' | translate}}</mat-label>
+                    <input type="password" matInput>
+                </mat-form-field>
+                <CButton class="text-sky-400"
+                [props]="{
+                  text: loginButtonText,
+                  color: 'primary'
+                }"
+                [styles]="[{
+                  height: '54px',
+                  width: '356px'
+                }]"
+              ></CButton>
+            </form>
+            <p class="pt-5 font-black text-indigo-400 hover:text-cyan-400 hover:cursor-pointer"><a>{{'LOGIN.FORM.RECOVERY-PASSWORD' | translate}}</a></p>
+            <div class="text-gray-400 mt-4 hover:text-cyan-400 hover:cursor-pointer flex w-[356px] ">← {{'LOGIN.FORM.BACK-TEXT' | translate}}
+            </div>
+        </div>
+
+    </mat-grid-tile>
+</mat-grid-list>

@@ -20,19 +20,4 @@
 <a href="" target="_blank"><img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white" alt="Apache Maven" /></a>
 </p>
 
-## Descrição
-Descrição Projeto **Get Games Social**
 
-## Funções
-
-- Contas
-  - Individual
-- Coleção de jogos e consoles
-  - Adicionar jogos a sua coleção
-  - Marcar jogos para venda
-  - Marcar jogos de interesse
-  - Marketplace de jogos e consoles
-- Social
-  - Chat
-  - Feed
-  - Seguir contas
